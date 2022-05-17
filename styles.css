@@ -1,13 +1,20 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body {
     background-image: url(https://media.pocketgamer.com/artwork/na-29276-1602677524/mario-kart-tour-ios-android-auto-mode.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    height: 70%;
+    min-height: 50%;
+    max-height: 70%;
     min-width: 30%;
     max-width: 46%;
 
@@ -26,14 +33,14 @@ h1 {
 li {
     background-color: rgba(247, 241, 212, 75%);
     text-align: center;
-    max-height: 2%;
-    max-width: 25%;
+    max-height: 30%;
+    max-width: 27%;
     margin: 0.5em;
     border: 5px solid rgb(224, 206, 100);
     cursor: pointer;
     border-radius: 9%;
-    font-size: 26px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
     color:#02075D;
     justify-content: flex-start;
 
@@ -52,13 +59,16 @@ li img {
 }
 section {
     display: flex;
-    max-height: 100vh;
+    /* max-height: 100vh; */
 }
 div {
-    margin-top: 0.5em;
+    margin-top: 2%;
     align-content: center;
     justify-content: flex-end;
-    margin:0 auto;
-    height: 30em;
-    width: 70em;
+    /* margin:0 auto; */
+    min-height: 25%;
+    max-height: 30em;
+    min-width: 50%;
+    max-width: 70%;
 }
+
