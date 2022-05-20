@@ -34,12 +34,12 @@ li {
     background-color: rgba(247, 241, 212, 75%);
     text-align: center;
     max-height: 30%;
-    max-width: 22%;
+    max-width: 28%;
     margin: 0.5em;
     border: 5px solid rgb(224, 206, 100);
     cursor: pointer;
     border-radius: 9%;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: 700;
     color:#02075D;
     justify-content: flex-start;
